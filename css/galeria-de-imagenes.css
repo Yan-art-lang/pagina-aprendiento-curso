@@ -1,0 +1,113 @@
+
+*{
+	margin:0px;
+	padding:0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color:  #cacaca;
+	
+}
+
+header{
+	width:100%;
+	height: 70px; 
+	background: #1ABC9C;
+}
+.ancho{
+	width:80%;
+	height: 70px;
+	margin:auto;
+	
+}
+.logo{
+	width: 30%;
+	height: 70px;
+	float: left;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.logo p a{
+	font-size: 40px;
+	text-decoration: none; 
+	font-family:'Freestyle Script';
+}
+
+nav{
+	width: 70%;
+	height: 70px;
+	float: left;
+	text-align: right;
+	padding-top: 24px;
+	box-sizing: border-box;
+	
+}
+
+nav ul li{
+	display: inline;
+	
+}
+
+nav ul li a{
+	font-family: 'Open sans';
+	color: #fff;
+	font-size:13px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+nav ul li a:hover{
+	color:#fde2a9;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 327px;
+  
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+
+width: 100%;
+height: auto;
+  
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: 'Arial';
+}
+
+.main-footer {
+	
+	
+	background: #222;
+	color: white;
+	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: .8em;
+	
+	
+}
+.copy{
+	text-align: center;
+	margin: auto;
+	margin-top: 15px;
+}
+
